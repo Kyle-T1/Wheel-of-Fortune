@@ -1,5 +1,9 @@
 package wheel_game;
 
+// Programmer : Kyle Williams
+// Date : April 10, 2023
+// Guess Class
+
 public class WheelCircularNode {
     // Attributes
     private Card cardInfo;

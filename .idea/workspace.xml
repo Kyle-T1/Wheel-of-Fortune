@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RoundAttributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wheel_game/Puzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wheel_game/Test.java" afterDir="false" />
+    <list default="true" id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="Need testing">
+      <change afterPath="$PROJECT_DIR$/src/wheel_game/GuessQueueNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
-    </list>
-    <list id="49ca48d2-f381-4e3a-ae2b-f247c151d179" name="Changes by lexye" comment="">
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/Guess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Guess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Puzzle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/GuessQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/WheelCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/WheelCircularNode.java" afterDir="false" />
     </list>
+    <list id="49ca48d2-f381-4e3a-ae2b-f247c151d179" name="Changes by lexye" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +31,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Kyle Williams &lt;jigwillams8@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -72,6 +78,7 @@
       <workItem from="1681312905927" duration="75000" />
       <workItem from="1681312993403" duration="4970000" />
       <workItem from="1681318042008" duration="7176000" />
+      <workItem from="1681328073334" duration="7865000" />
     </task>
     <servers />
   </component>
@@ -80,5 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Need testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Need testing" />
   </component>
 </project>

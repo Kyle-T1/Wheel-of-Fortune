@@ -1,6 +1,7 @@
 package wheel_game;
 
 // Programmer : Nathalea Evans
+// Contribution: Kyle Williams
 // Date : Mar 28, 2023
 // Manager Class
 

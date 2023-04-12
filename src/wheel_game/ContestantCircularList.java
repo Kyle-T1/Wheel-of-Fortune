@@ -1,5 +1,9 @@
 package wheel_game;
 
+// Programmer : Kyle Williams
+// Date : April 10, 2023
+// Contestant Class
+
 import java.util.Scanner;
 
 public class ContestantCircularList {
@@ -75,14 +79,14 @@ public class ContestantCircularList {
 
                 if (nextPlayer == false) {  // loose a turn skip to the other player
                     System.out.println("Have a letter in mind? If yes then type the guess if not the type and enter no.");
-                    String value = read.next();
+                    char value = (char) read.nextByte();
 
                     if (read.hasNext("no") || read.hasNext("No")) {
                         read.reset();
                     } else {
                         int intFromScanner;
                         do {
-                            round.tryToGuess(value);
+                            round.tryToGuess(value, Manager.getCategory());
                             System.out.println("You still have your turn, you can (1) choose to spin again, (2) buy a vowel, or " +
                                     "(3) solve the puzzle. \nPlease type and enter the number corresponding to what you choose.");
                             intFromScanner = read.nextInt();

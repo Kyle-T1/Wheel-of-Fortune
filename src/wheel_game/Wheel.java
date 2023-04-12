@@ -1,8 +1,7 @@
 package wheel_game;
 
-// Programmer :
-// Contributor: Kyle Williams
-// Date : Mar 04, 2023
+// Programmer : Kyle Williams
+// Date : Mar 10, 2023
 // Wheel(Circular linked list) Class
 
 import java.util.Random;

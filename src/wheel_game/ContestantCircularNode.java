@@ -1,7 +1,7 @@
 package wheel_game;
 
 // Programmer : Kyle Williams
-// Date : Mar 28, 2023
+// Date : April 10, 2023
 // ContestantCircularNode Class
 
 public class ContestantCircularNode {

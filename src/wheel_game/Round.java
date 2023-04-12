@@ -1,8 +1,8 @@
 package wheel_game;
 
-// Programmer : Lamar Smith
-// Date : Mar 28, 2023
-// Puzzle Class
+// Programmer : Kyle Williams
+// Date : April 12, 2023
+// Guess Class
 
 import java.io.*;
 import java.util.Arrays;
@@ -13,11 +13,13 @@ public class Round {
     // Attributes
     private String category;
     private String[] puzzle;    // because in this case puzzle is an attribute, we did it as an array instead of singly linked list
+    private GuessQueue lettersGuessed;
 
     // Default Constructor
     Round(){
         category = "";
         puzzle = new String[20];
+        lettersGuessed = null;
     }
 
     // Primary Constructor
@@ -104,7 +106,6 @@ public class Round {
     }
 
     public boolean solvePuzzle(String answer, ContestantCircularNode contestant, String category){
-        Scanner readInput = new Scanner(System.in);
 
         if (contestant.getContestantInfo().getRoundTotal() != 0 || contestant.getContestantInfo().getGrandTotal() != 0){
             Round storageFromFile = readFromFile(category);
@@ -117,7 +118,7 @@ public class Round {
 
             // compare user's guess with the puzzle stored on file
             System.out.println("Type your guess to solve the puzzle: ");
-            if (stringFromArray.equals(readInput.next())){
+            if (stringFromArray.equals(answer)){
                 return true;
             }
 
@@ -128,15 +129,53 @@ public class Round {
             return false;
     }
 
-    public boolean tryToGuess(String guess){
-        
+    public boolean tryToGuess(char guess, String category){
+        Round fileOutput = new Round();
+        fileOutput = fileOutput.readFromFile(category);
 
-        return true;
+        // search for letter
+        boolean verifyReturn = false;
+        int count = 0;
+        int count2 = 0;
+        for (String word : fileOutput.puzzle) {
+            for (int i = 0; i < word.length(); i++) {
+                if (word.charAt(i) == guess) {
+                    lettersGuessed.enqueueLetter(guess);
+                    verifyReturn = true;
+                    // reveal all occurances
+                    System.out.println("The letter " + guess + " appears " + count + " time/s in the " + count2 + " word");
+                    count++;
+                }
+            }
+            count2++;
+        }
+        if (count > 0 ) {
+            System.out.println("The letter " + guess + " appears " + count + " times in the puzzle");
+        }
+
+        return verifyReturn;
     }
 
     public boolean buyVowel(char vowel){
+        Round fileOutput = new Round();
+        fileOutput = fileOutput.readFromFile(category);
 
-        return true;
+        // search for letter
+        for (String word : fileOutput.puzzle) {
+            for (int i = 0; i < word.length(); i++) {
+                if (word.charAt(i) == vowel) {
+                    if (lettersGuessed.searchForLetter(vowel) == true){
+                        System.out.println("Letter not available");
+                    } else{
+                        lettersGuessed.enqueueLetter(vowel);
+                        return true;
+                    }
+                    // communication with trackGuesses class
+                }
+            }
+        }
+
+        return false;
     }
 
     public String toString(){
