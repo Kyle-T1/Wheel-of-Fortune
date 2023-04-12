@@ -105,8 +105,9 @@ public class ContestantCircularList {
 
                             // gameplay for solve the puzzle
                             else if (intFromScanner == 3) {
-                                System.out.println("Type and enter the puzzle answer.");
-                                if (round.solvePuzzle(read.next()) == false) {
+                                System.out.println("Type and enter to solve the puzzle, be sure to include any " +
+                                        "apostrophes, comma’s, etc.");
+                                if (round.solvePuzzle(read.next(), current, Manager.getCategory()) == false) {
                                     System.out.println("That was an incorrect guess, next player.");
                                     current.setRoundTotal(0);
                                     // skip to next player

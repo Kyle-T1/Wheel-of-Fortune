@@ -4,32 +4,132 @@ package wheel_game;
 // Date : Mar 28, 2023
 // Puzzle Class
 
+import java.io.*;
+import java.util.Arrays;
+import java.util.Objects;
+import java.util.Scanner;
+
 public class Round {
     // Attributes
+    private String category;
+    private String[] puzzle;    // because in this case puzzle is an attribute, we did it as an array instead of singly linked list
 
     // Default Constructor
     Round(){
-
+        category = "";
+        puzzle = new String[20];
     }
 
     // Primary Constructor
-    Round(int a){
+    public Round(String category, String[] puzzle) {
+        this.category = category;
+        this.puzzle = puzzle;
+    }
 
+    //Copy Constructor
+    public Round(Round round){
+        this.category = round.category;
+        this.puzzle = round.puzzle;
     }
 
     // Getters
+    public String getCategory() {
+        return category;
+    }
 
+    public String[] getPuzzle() {
+        return puzzle;
+    }
 
     // Setters
+    public void setCategory(String category) {
+        this.category = category;
+    }
 
+    public void setPuzzle(String[] puzzle) {
+        this.puzzle = puzzle;
+    }
 
     // Solution Methods
-    public boolean solvePuzzle(String answer){
+    public Round readFromFile(String categorySearch){
+        Round round = new Round();
+        Scanner read = null;
+        Scanner inFileStream = null;
+        try {
+            read = new Scanner(System.in);
+            inFileStream = new Scanner(new File("RoundAttributes"));
+            while (inFileStream.hasNext()) {
+                round.category = inFileStream.next();
+                int arrayTraverse = 0;
+                while (inFileStream.next().contains(".")) {
+                    round.puzzle[arrayTraverse] = String.valueOf(inFileStream);
+                    inFileStream.next();
+                    arrayTraverse++;
+                }
 
-        return true;
+                if(Objects.equals(round.category, categorySearch)) {
+                    return round;
+                }
+            }
+
+            System.out.println("Item was not found");
+            round = new Round();
+            category = "";
+            puzzle = new  String[20];
+        } catch (FileNotFoundException e) {
+            System.err.println("File could not be found");
+        } catch (Exception e) {
+            System.err.println("Exception Occured: " + e.getMessage());
+            e.printStackTrace();
+        } finally {
+            if (read != null) {
+                read.close();
+            }
+            if (inFileStream != null) {
+                inFileStream.close();
+            }
+        }
+
+        return null;
+    }
+
+    public boolean createFile() {
+        try (FileOutputStream fos = new FileOutputStream("RoundAttributes")) {
+            System.out.println("File created successfully.");
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+    public boolean solvePuzzle(String answer, ContestantCircularNode contestant, String category){
+        Scanner readInput = new Scanner(System.in);
+
+        if (contestant.getContestantInfo().getRoundTotal() != 0 || contestant.getContestantInfo().getGrandTotal() != 0){
+            Round storageFromFile = readFromFile(category);
+            int traverseArray = 0;
+            String stringFromArray = "";
+
+            while (storageFromFile.puzzle[traverseArray] != null){  // convert the array to string
+                stringFromArray += puzzle[traverseArray];
+            }
+
+            // compare user's guess with the puzzle stored on file
+            System.out.println("Type your guess to solve the puzzle: ");
+            if (stringFromArray.equals(readInput.next())){
+                return true;
+            }
+
+        } else{
+            System.out.println("Contestant has no money to solve the puzzle.");
+        }
+
+            return false;
     }
 
     public boolean tryToGuess(String guess){
+        
 
         return true;
     }
@@ -37,5 +137,9 @@ public class Round {
     public boolean buyVowel(char vowel){
 
         return true;
+    }
+
+    public String toString(){
+        return "Category: " + category + "\nPuzzle: " + Arrays.toString(puzzle);
     }
 }

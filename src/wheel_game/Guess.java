@@ -10,20 +10,28 @@ public class Guess {
 
     // Default Constructor
     Guess(){
-
-
+        this.guess = "";
     }
 
     // Primary Constructor
-    Guess(int a){
-
+    Guess(String g){
+        this.guess = g;
     }
 
     // Getters
-
+    public String getGuess(){
+        return guess;
+    }
 
     // Setters
 
+    public void setGuess(String guess) {
+        this.guess = guess;
+    }
+
 
     // Other Methods
+    void display(){
+        System.out.println(guess);
+    }
 }
