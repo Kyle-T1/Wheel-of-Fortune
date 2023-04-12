@@ -1,239 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
-    </list>
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="" />
-=======
-    <list default="true" id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="">
-=======
-    <list default="true" id="1311a8aa-713f-4a6e-876f-fe3ca17880f5" name="Changes" comment="">
->>>>>>> Stashed changes
+    <list default="true" id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Kyle Williams &lt;jigwillams8@gmail.com&gt;" />
-        <option value="jigwilliams8@gmail.com" />
-        <option value="Kyle Williams" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="f40372eb-710a-4fc6-a263-c5f6ef4b54e0" />
-        <option name="url" value="https://github.com/cherymochi/Wheel-of-Fortune.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NRL5BtbEFCs7qIHnB0MZ6wOQ5J" />
+  <component name="ProjectId" id="2OKcqVZJyvtPvpSCKHppgXbi39R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="0d570cb2-96df-43cc-80da-7f777e6d0afe" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wheel_game.Driver" />
-      <module name="Wheel-of-Fortune" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wheel_game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Driver" />
-      </list>
-    </recent_temporary>
-  </component>
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jigwi/OneDrive/Documents/WHITE_KIRLEW_WHITE_WILLIAMS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-=======
->>>>>>> Stashed changes
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-<<<<<<< Updated upstream
-    "last_opened_file_path": "C:/Users/jigwi/CLionProjects/C",
-=======
-    "last_opened_file_path": "C:/Users/jigwi/Downloads/Wheel-of-Fortune-main",
->>>>>>> Stashed changes
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
-<<<<<<< Updated upstream
   }
 }]]></component>
-=======
->>>>>>> Stashed changes
-  }
-}</component>
->>>>>>> Stashed changes
->>>>>>> Stashed changes
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5663c635-56d5-4b77-a56f-5dd899fff574" name="Changes" comment="" />
-      <created>1679621799613</created>
+      <changelist id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="" />
+      <created>1681312904251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679621799613</updated>
-<<<<<<< Updated upstream
-      <workItem from="1680644576687" duration="25088000" />
-      <workItem from="1680987484953" duration="1067000" />
-      <workItem from="1681078261340" duration="11956000" />
+      <updated>1681312904251</updated>
+      <workItem from="1681312905927" duration="75000" />
+      <workItem from="1681312993403" duration="36000" />
     </task>
-=======
-<<<<<<< Updated upstream
-    </task>
-=======
-      <workItem from="1680644576687" duration="25088000" />
-      <workItem from="1680987484953" duration="1067000" />
-      <workItem from="1681078261340" duration="11982000" />
-      <workItem from="1681220135068" duration="1429000" />
-      <workItem from="1681269431693" duration="1427000" />
-      <workItem from="1681309596944" duration="302000" />
-    </task>
->>>>>>> Stashed changes
-    <task id="LOCAL-00001" summary="Finished the node class">
-      <created>1680907730032</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1680907730032</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Finished the card class, read for use in the circular node class">
-      <created>1680908700088</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1680908700088</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Finished the card class, read for use in the circular node class">
-      <created>1680909283185</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1680909283185</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented.">
-      <created>1680986236893</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1680986236893</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented.">
-      <created>1680993322430</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1680993322430</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented.">
-      <created>1681078423832</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1681078423832</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Some touches. Wheel class is finished, as wheel as the wheelCircularNode.">
-      <created>1681149817419</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681149817419</updated>
-    </task>
-<<<<<<< Updated upstream
-    <option name="localTasksCounter" value="8" />
-=======
-    <task id="LOCAL-00008" summary="Some touches. Wheel class is finished, as wheel as the wheelCircularNode.">
-      <created>1681155000132</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1681155000132</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
->>>>>>> Stashed changes
->>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished the node class" />
-    <MESSAGE value="Finished the card class, read for use in the circular node class" />
-    <MESSAGE value="Major changes, check the classes that youre doing and the associated class. As well as the ContestantCircularList class, the takeTurn method in it has gameplay aspects implemented." />
-    <MESSAGE value="Some touches. Wheel class is finished, as wheel as the wheelCircularNode." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some touches. Wheel class is finished, as wheel as the wheelCircularNode." />
   </component>
 </project>
