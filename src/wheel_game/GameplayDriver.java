@@ -50,6 +50,7 @@ public class GameplayDriver { // Start Program Execution
 
             // Play again or terminate game
             if(rounds == 3) {
+                playersTakeTurns.findWinner(); // find game winner
                 System.out.println("Do you want to 1-play again or 2-exit the game? Type and enter 1 or 2.");
                 if (scan.nextInt() == 1) {
                     rounds = 0;     // restart rounds as the counter

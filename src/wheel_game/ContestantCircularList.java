@@ -134,10 +134,10 @@ public class ContestantCircularList {
         }
     }
 
-    public Contestant findWinner(){
+    public void findWinner(){
         if (isEmpty()) {
             System.out.println("Linked list is empty");
-            return null;
+            return;
         }
         ContestantCircularNode current = head;
         ContestantCircularNode current2 = head;
@@ -154,7 +154,15 @@ public class ContestantCircularList {
 
             current = current.getNextNode();
         } while (current != head);
-        System.out.println();
+
+        current = head;
+        do {
+            if (highestGrandTotal == current.getContestantInfo().getGrandTotal()){
+                break;
+            }
+            current = current.getNextNode();
+        } while (current != head);
+        System.out.println("Player " + current.getContestantInfo().getPlayerNum() + " IS THE GAME WINNER!!!");
     }
 
 }

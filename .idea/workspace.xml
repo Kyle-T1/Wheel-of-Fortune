@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="636654c8-0f92-48e6-84b6-18aba799b364" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoundAttributes" beforeDir="false" afterPath="$PROJECT_DIR$/RoundAttributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +49,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681348230647</updated>
-      <workItem from="1681348234607" duration="3227000" />
+      <workItem from="1681348234607" duration="3531000" />
     </task>
+    <task id="LOCAL-00001" summary="Needs testing">
+      <created>1681351516122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681351516122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Needs testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Needs testing" />
   </component>
 </project>
