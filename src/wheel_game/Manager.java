@@ -33,17 +33,7 @@ public class Manager {
 
 
     // Other Methods
-    public void mainMenu(){
-        System.out.println("\t--------------------------------------------------------------------");
-        System.out.println("\t|                   GAME SHOW NETWORK PRESENTS                     |");
-        System.out.println("\t|                        WHEEL OF FORTUNE                          |");
-        System.out.println("\t--------------------------------------------------------------------\n");
-        System.out.println("\t--------------------------------------------------------------------");
-        System.out.println("\t|                       >>>__Main Menu__<<<                        |");
-        System.out.println("\t--------------------------------------------------------------------\n\n");
-        System.out.println("|\t\tEnter 1 to start game.");
-        System.out.println("|\t\tEnter 0 to exit.\n");
-        System.out.println("|\t\tYour Choice: ");
+    public void setCategory(){
 
         // we need the manager to input the category
         System.out.println("Catergory: ");

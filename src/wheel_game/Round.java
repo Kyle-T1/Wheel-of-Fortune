@@ -63,9 +63,10 @@ public class Round {
             while (inFileStream.hasNext()) {
                 round.category = inFileStream.next();
                 int arrayTraverse = 0;
-                while (inFileStream.next().contains(".")) {
+                boolean check = inFileStream.next().contains("\n");
+                while (check != true) {
                     round.puzzle[arrayTraverse] = String.valueOf(inFileStream);
-                    inFileStream.next();
+                    check = inFileStream.next().contains("\n");
                     arrayTraverse++;
                 }
 
@@ -126,7 +127,7 @@ public class Round {
             System.out.println("Contestant has no money to solve the puzzle.");
         }
 
-            return false;
+        return false;
     }
 
     public boolean tryToGuess(char guess, String category){

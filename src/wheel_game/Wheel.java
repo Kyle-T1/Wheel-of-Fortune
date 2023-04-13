@@ -64,10 +64,75 @@ public class Wheel {
     public void addAllCards(){
         Card card = new Card("Money", 2500);
         addCardToList(card);
+
         card = new Card("Loose A Turn", 0);
         addCardToList(card);
+
         card = new Card("Money", 600);
-        // add all cards
+        addCardToList(card);
+
+        card = new Card("Money", 700);
+        addCardToList(card);
+
+        card = new Card("Money", 600);
+        addCardToList(card);
+
+        card = new Card("Money", 650);
+        addCardToList(card);
+
+        card = new Card("Money", 500);
+        addCardToList(card);
+
+        card = new Card("Money", 700);
+        addCardToList(card);
+
+        card = new Card("Bankrupt", 0);
+        addCardToList(card);
+
+        card = new Card("Money", 600);
+        addCardToList(card);
+
+        card = new Card("Money", 550);
+        addCardToList(card);
+
+        card = new Card("Money", 500);
+        addCardToList(card);
+
+        card = new Card("Money",  600);
+        addCardToList(card);
+
+        card = new Card("Bankrupt", 0);
+        addCardToList(card);
+
+        card = new Card("Money", 650);
+        addCardToList(card);
+
+        card = new Card("Money", 850);
+        addCardToList(card);
+
+        card = new Card("Money", 700);
+        addCardToList(card);
+
+        card = new Card("Loose A Turn", 0);
+        addCardToList(card);
+
+        card = new Card("Money", 800);
+        addCardToList(card);
+
+        card = new Card("Money", 500);
+        addCardToList(card);
+
+        card = new Card("Money", 650);
+        addCardToList(card);
+
+        card = new Card("Money", 500);
+        addCardToList(card);
+
+        card = new Card("Money", 900);
+        addCardToList(card);
+
+        card = new Card("Bankrupt", 0);
+        addCardToList(card);
     }
     public void actionAfterLandsOn(ContestantCircularNode node){
         WheelCircularNode wheelPositionData = landsOn();

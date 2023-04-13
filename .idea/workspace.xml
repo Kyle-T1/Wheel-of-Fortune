@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="" />
+    <list default="true" id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoundAttributes" beforeDir="false" afterPath="$PROJECT_DIR$/RoundAttributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Guess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Round.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Round.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Wheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Wheel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/WheelCircularNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/WheelCircularNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
+    </list>
     <list id="49ca48d2-f381-4e3a-ae2b-f247c151d179" name="Changes by lexye" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +42,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,24 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jigwi/IdeaProjects/Object Oriented Programming/Tutorial, labs, assignments&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jigwi/IdeaProjects/Object Oriented Programming/Tutorial, labs, assignments",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +84,7 @@
       <workItem from="1681312905927" duration="75000" />
       <workItem from="1681312993403" duration="4970000" />
       <workItem from="1681318042008" duration="7176000" />
-      <workItem from="1681328073334" duration="8417000" />
+      <workItem from="1681328073334" duration="15257000" />
     </task>
     <task id="LOCAL-00001" summary="Need testing">
       <created>1681337910320</created>
@@ -80,6 +98,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

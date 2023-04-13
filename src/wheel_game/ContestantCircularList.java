@@ -55,7 +55,6 @@ public class ContestantCircularList {
         // Initialization
         int player = 1;
         boolean nextPlayer = false;
-        boolean roundTotalTransaction = false;
         ContestantCircularNode current = head;
         Scanner read = new Scanner(System.in);
         Wheel wheel = new Wheel();
