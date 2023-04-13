@@ -4,50 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="">
+    <list default="true" id="636654c8-0f92-48e6-84b6-18aba799b364" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RoundAttributes" beforeDir="false" afterPath="$PROJECT_DIR$/RoundAttributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Guess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Round.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Round.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Wheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Wheel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/WheelCircularNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/WheelCircularNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Round.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wheel_game/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/Wheel.java" afterDir="false" />
     </list>
-    <list id="49ca48d2-f381-4e3a-ae2b-f247c151d179" name="Changes by lexye" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Kyle Williams &lt;jigwillams8@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OKcqVZJyvtPvpSCKHppgXbi39R" />
+  <component name="ProjectId" id="2OLmRRQiW806hv1XlImBufQpQoK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -57,62 +33,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jigwi/IdeaProjects/Object Oriented Programming/Tutorial, labs, assignments",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="31fcba9c-34f0-4519-8ce1-ee57c11f8abc" name="Changes" comment="" />
-      <created>1681312904251</created>
+      <changelist id="636654c8-0f92-48e6-84b6-18aba799b364" name="Changes" comment="" />
+      <created>1681348230647</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681312904251</updated>
-      <workItem from="1681312905927" duration="75000" />
-      <workItem from="1681312993403" duration="4970000" />
-      <workItem from="1681318042008" duration="7176000" />
-      <workItem from="1681328073334" duration="15257000" />
+      <updated>1681348230647</updated>
+      <workItem from="1681348234607" duration="3227000" />
     </task>
-    <task id="LOCAL-00001" summary="Need testing">
-      <created>1681337910320</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681337910320</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Need testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Need testing" />
   </component>
 </project>

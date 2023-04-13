@@ -58,14 +58,15 @@ public class ContestantCircularList {
         ContestantCircularNode current = head;
         Scanner read = new Scanner(System.in);
         Wheel wheel = new Wheel();
+        wheel.addAllCards();    // game processing
         Round round = new Round();
 
         // Solution
         try{
             do{
-                System.out.println("Player " + player + " Spin the wheel? type yes or no");
+                System.out.println("Player " + player + " Spin the wheel? type yes or no. Make sure your answer is spelled correctly.");
                 read.next();
-                if (read.hasNext("yes")){
+                if (read.hasNext("yes") || read.hasNext("Yes")){
                     wheel.spinWheel();
                     wheel.actionAfterLandsOn(current);
                     if(wheel.landsOn().getCardInfo().getType() == "Loose A Turn") {
@@ -117,6 +118,8 @@ public class ContestantCircularList {
                                     current = current.getNextNode();
                                 } else {
                                     // keep money for that round
+                                    System.out.println("You won this round " + current.getContestantInfo().
+                                            getRoundTotal() + "was added to your grand total.");
                                     current.setGrandTotal(current.getContestantInfo().getRoundTotal());
                                 }
                             }
@@ -129,6 +132,29 @@ public class ContestantCircularList {
         } catch(Exception general){
             System.err.println("Something went wrong");
         }
+    }
+
+    public Contestant findWinner(){
+        if (isEmpty()) {
+            System.out.println("Linked list is empty");
+            return null;
+        }
+        ContestantCircularNode current = head;
+        ContestantCircularNode current2 = head;
+        float highestGrandTotal = 0;
+        float temp = 0;
+        do {
+            temp = current.getContestantInfo().getGrandTotal();
+            do{
+                if (current2.getContestantInfo().getGrandTotal() > temp){
+                    highestGrandTotal = current2.getContestantInfo().getGrandTotal();
+                }
+                current2 = current2.getNextNode();
+            } while (current2 != head);
+
+            current = current.getNextNode();
+        } while (current != head);
+        System.out.println();
     }
 
 }

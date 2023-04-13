@@ -11,7 +11,7 @@ public class ContestantCircularNode {
     private ContestantCircularNode nextNode;
 
     // Default Constructor
-    ContestantCircularNode(){
+    public ContestantCircularNode(){
         contestantInfo = new Contestant();
         nextNode = null;
     }

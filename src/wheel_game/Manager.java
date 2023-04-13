@@ -13,7 +13,7 @@ import java.util.Random;
 import java.util.*;
 
 public class Manager {
-    // Attributes
+    // Attribute
     private int round_num = 0;
     private int puzzles = 0;
     private int card =  0;

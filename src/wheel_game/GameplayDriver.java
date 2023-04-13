@@ -19,6 +19,7 @@ public class GameplayDriver { // Start Program Execution
         // Initialization
         Manager management = new Manager(); // Create an instance of the game
         ContestantCircularList playersTakeTurns = new ContestantCircularList();
+        Wheel theWheel = new Wheel();
 
         int choice;
         int rounds = 0;
@@ -28,7 +29,17 @@ public class GameplayDriver { // Start Program Execution
         // Game processing
         mainMenu();
         if (scan.nextInt() == 0){
-            exit_game = true;
+            exit_game = true;       // end game before it starts
+
+        } else{     //continue to game initialization
+            System.out.println("How many players will play this game? ");
+            int players = scan.nextInt();
+            int counter = 1;
+            while (counter != players) {       // add players until we reach the number we want to add
+                System.out.println("Player " + counter + ", enter your name: ");
+                Contestant contestant = new Contestant(counter, 0, scan.next(), 0);
+                playersTakeTurns.addContestantToCircularList(contestant);
+            }
         }
 
 
