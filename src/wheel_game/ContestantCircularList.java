@@ -78,8 +78,7 @@ public class ContestantCircularList {
 
                 if (nextPlayer == false) {  // loose a turn skip to the other player
                     System.out.println("Have a letter in mind? If yes then type the guess if not then type and enter no.");
-
-
+                    read.reset();
                     if (read.hasNext("no") || read.hasNext("No")) {
                         current.getNextNode();
                     } else {
