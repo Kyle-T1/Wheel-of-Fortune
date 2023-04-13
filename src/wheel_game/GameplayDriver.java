@@ -34,11 +34,12 @@ public class GameplayDriver { // Start Program Execution
         } else{     //continue to game initialization
             System.out.println("How many players will play this game? ");
             int players = scan.nextInt();
-            int counter = 1;
+            int counter = 0;
             while (counter != players) {       // add players until we reach the number we want to add
-                System.out.println("Player " + counter + ", enter your name: ");
+                System.out.println("Player " + (counter + 1) + ", enter your first name: ");
                 Contestant contestant = new Contestant(counter, 0, scan.next(), 0);
                 playersTakeTurns.addContestantToCircularList(contestant);
+                counter++;
             }
         }
 

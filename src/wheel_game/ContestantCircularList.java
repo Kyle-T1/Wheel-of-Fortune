@@ -65,7 +65,6 @@ public class ContestantCircularList {
         try{
             do{
                 System.out.println("Player " + player + " Spin the wheel? type yes or no. Make sure your answer is spelled correctly.");
-                read.next();
                 if (read.hasNext("yes") || read.hasNext("Yes")){
                     wheel.spinWheel();
                     wheel.actionAfterLandsOn(current);
@@ -73,6 +72,7 @@ public class ContestantCircularList {
                         current.setRoundTotal(0);
                         player++;
                         nextPlayer = true;
+                        current = current.getNextNode();
                     }
                     read.reset();
                 }
