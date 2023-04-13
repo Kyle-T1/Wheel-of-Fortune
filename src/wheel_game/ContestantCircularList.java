@@ -74,16 +74,17 @@ public class ContestantCircularList {
                         nextPlayer = true;
                         current = current.getNextNode();
                     }
-                    read.reset();
                 }
 
                 if (nextPlayer == false) {  // loose a turn skip to the other player
-                    System.out.println("Have a letter in mind? If yes then type the guess if not the type and enter no.");
-                    char value = (char) read.nextByte();
+                    System.out.println("Have a letter in mind? If yes then type the guess if not then type and enter no.");
+
 
                     if (read.hasNext("no") || read.hasNext("No")) {
-                        read.reset();
+                        current.getNextNode();
                     } else {
+
+                        char value = read.next().charAt(0);
                         int intFromScanner;
                         do {
                             round.tryToGuess(value, Manager.getCategory());
@@ -100,7 +101,7 @@ public class ContestantCircularList {
                             // gameplay for buy a vowel
                             else if (intFromScanner == 2) {
                                 System.out.println("What vowel do you choose?");
-                                if (round.buyVowel((char) read.nextByte()) == false) {
+                                if (round.buyVowel(read.next().charAt(0)) == false) {
                                     System.out.println("That was an incorrect guess, next player.");
                                     // skip to next player
                                     current = current.getNextNode();

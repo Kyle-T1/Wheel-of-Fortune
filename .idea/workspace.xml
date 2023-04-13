@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="636654c8-0f92-48e6-84b6-18aba799b364" name="Changes" comment="Needs testing">
+    <list default="true" id="636654c8-0f92-48e6-84b6-18aba799b364" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/ContestantCircularNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/GameplayDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/GameplayDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Wheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Wheel-of-Fortune/wheel_game/Wheel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/ContestantCircularList.java" afterDir="false" />
+    </list>
+    <list id="f843c9d8-71ce-47e6-b3b3-c280c7a7ed4e" name="Changes by lexye" comment="">
       <change beforePath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wheel_game/GameplayDriver.java" afterDir="false" />
     </list>
-    <list id="84f65d11-b348-49e9-916c-bbffe5399b13" name="Changes by lexye" comment="" />
+    <list id="9aa058df-ff33-4214-a7d8-44739bd25f5c" name="Changes by smith" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681348230647</updated>
-      <workItem from="1681348234607" duration="6682000" />
+      <workItem from="1681348234607" duration="8308000" />
     </task>
     <task id="LOCAL-00001" summary="Needs testing">
       <created>1681351516122</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681351859010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Needs testing">
+      <created>1681355218801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681355218801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
